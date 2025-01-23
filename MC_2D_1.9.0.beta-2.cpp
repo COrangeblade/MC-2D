@@ -1,24 +1,24 @@
 /*
 MC 2D 1.9.0.beta
-±¾°æ±¾ÓÉÉÏ°æ±¾ÖØĞ´¶øÀ´£¬½á¹¹ÉÏÓĞ½Ï´ó±ä»¯¡£
-ÎÒÃÇ¸üĞÂÁËÈçÏÂ¼¸¸ö·½Ãæ
-- ÓÅ»¯»º³å·½Ê½£¬µ«²¢Ã»ÓĞ²ÉÓÃË«»º³å£¬ËùÒÔ»á³öÏÖ¿¨ÆÁÏÖÏó¡£
-- ËõĞ¡³ÌĞòÌåÁ¿£¬´úÂëÓÉ 19 kb -> 12 kb
-- ĞŞ¸´ÁËÈçÏÂ BUG£º
-	- Ö¸ÕëÒÆ¶¯ BUG
-	- Ğé¿Õ BUG
-	- ¿ªÊ¼²Ëµ¥ BUG
-- ÓÅ»¯ÁËÂë·ç
-- Ôö¼ÓÁËÒÆ¶¯Şô¼ü£¨½«´óĞ´W¡¢S¡¢A¡¢D¼ÓÈëŞô¼üÖĞ£©£¨±ÜÃâÏñCorangeÒ»ÑùµÄÊÖ²Ğµ³Íæ¼Ò²»Ğ¡ĞÄŞôµ½´óĞ´Ëø¶¨ºó±»¶¨Éí£©
-- ½«Ô­±¾ĞèÒªŞô×¡Shift²ÅÄÜ²úÉúĞ§¹ûµÄŞô¼ü¸ÄÎªÁË²»ÓÃŞô×¡ShiftµÄ¼ü£¨Şô¼üÎ»ÖÃ²»±ä£¬Ô­À´ÄÇĞ©ĞèÒªŞô×¡ShiftµÄ¼üÒ²Ã»É¾£© 
-- Í¬Ê±£¬ÓÉÓÚ¸÷·½ÃæÔ­Òò£¬ÎÒÃÇÔİÊ±ÒÆ³ıÁËĞŞ¸Ä¼üÎ»²Ù×÷£¬ÈÕºó»á»Ö¸´¡£
-- ´Ë´ÎÉı¼¶£¬ÄÑÃâÓĞ²»×ãºÍÎÊÌâ£¬ÇëÄú¼°Ê±·´À¡£¬ÈÃËû±äµÄ¸üºÃ
-- ×îºó£¬¸ĞĞ»¸÷Î»Ë®ÓÑµÄÖ§³Ö£¬Ï£Íû´ó¼ÒÒÔºóÄÜ¼ÌĞøÅã°é MC 2D ÖÆ×÷×é×ßÏÂÈ¥¡£
-												´ËÖÂ¾´Àñ
-												MC 2D ÖÆ×÷×é
-												1.21 ÈÕÍíÉÏ
-1.20 ¿ªÊ¼±àĞ´¡£
-1.21 ÊÕ¹¤¡£
+æœ¬ç‰ˆæœ¬ç”±ä¸Šç‰ˆæœ¬é‡å†™è€Œæ¥ï¼Œç»“æ„ä¸Šæœ‰è¾ƒå¤§å˜åŒ–ã€‚
+æˆ‘ä»¬æ›´æ–°äº†å¦‚ä¸‹å‡ ä¸ªæ–¹é¢
+- ä¼˜åŒ–ç¼“å†²æ–¹å¼ï¼Œä½†å¹¶æ²¡æœ‰é‡‡ç”¨åŒç¼“å†²ï¼Œæ‰€ä»¥ä¼šå‡ºç°å¡å±ç°è±¡ã€‚
+- ç¼©å°ç¨‹åºä½“é‡ï¼Œä»£ç ç”± 19 kb -> 12 kb
+- ä¿®å¤äº†å¦‚ä¸‹ BUGï¼š
+	- æŒ‡é’ˆç§»åŠ¨ BUG
+	- è™šç©º BUG
+	- å¼€å§‹èœå• BUG
+- ä¼˜åŒ–äº†ç é£
+- å¢åŠ äº†ç§»åŠ¨æ‘é”®ï¼ˆå°†å¤§å†™Wã€Sã€Aã€DåŠ å…¥æ‘é”®ä¸­ï¼‰ï¼ˆé¿å…åƒCorangeä¸€æ ·çš„æ‰‹æ®‹å…šç©å®¶ä¸å°å¿ƒæ‘åˆ°å¤§å†™é”å®šåè¢«å®šèº«ï¼‰
+- å°†åŸæœ¬éœ€è¦æ‘ä½Shiftæ‰èƒ½äº§ç”Ÿæ•ˆæœçš„æ‘é”®æ”¹ä¸ºäº†ä¸ç”¨æ‘ä½Shiftçš„é”®ï¼ˆæ‘é”®ä½ç½®ä¸å˜ï¼ŒåŸæ¥é‚£äº›éœ€è¦æ‘ä½Shiftçš„é”®ä¹Ÿæ²¡åˆ ï¼‰ 
+- åŒæ—¶ï¼Œç”±äºå„æ–¹é¢åŸå› ï¼Œæˆ‘ä»¬æš‚æ—¶ç§»é™¤äº†ä¿®æ”¹é”®ä½æ“ä½œï¼Œæ—¥åä¼šæ¢å¤ã€‚
+- æ­¤æ¬¡å‡çº§ï¼Œéš¾å…æœ‰ä¸è¶³å’Œé—®é¢˜ï¼Œè¯·æ‚¨åŠæ—¶åé¦ˆï¼Œè®©ä»–å˜çš„æ›´å¥½
+- æœ€åï¼Œæ„Ÿè°¢å„ä½æ°´å‹çš„æ”¯æŒï¼Œå¸Œæœ›å¤§å®¶ä»¥åèƒ½ç»§ç»­é™ªä¼´ MC 2D åˆ¶ä½œç»„èµ°ä¸‹å»ã€‚
+												æ­¤è‡´æ•¬ç¤¼
+												MC 2D åˆ¶ä½œç»„
+												1.21 æ—¥æ™šä¸Š
+1.20 å¼€å§‹ç¼–å†™ã€‚
+1.21 æ”¶å·¥ã€‚
 */
 #include<bits/stdc++.h>
 #include<conio.h>
@@ -27,43 +27,43 @@ MC 2D 1.9.0.beta
 using namespace std;
 
 #define DEBUG cout<<666<<endl;
-/*----- ÊÀ½çĞÅÏ¢ -----*/
+/*----- ä¸–ç•Œä¿¡æ¯ -----*/
 const int MAXY = 150;
-const int MAXX = 500; 		// µØÍ¼³¤¿í
-int world[MAXY+20][MAXX+20]; 		// µØÍ¼
-const int TICK = 10;        // ¿Ì(10 tick(s)/s)
-int ground_att;             // Ë®Æ½Ãæ¸ß¶È
-const int BLOCKS_NUM = 5;	// ·½¿éÖÖÀàÊıÁ¿
-const int KEY_MAX = 12;		// °´¼üÖÖÀàÊıÁ¿
-/*----- °´¼üĞÅÏ¢ -----*/
-char key[KEY_MAX + 5];  		// °´¼ü×ÖÄ¸
-map <char, int> key_id;		// °´¼üË÷Òı
-map <int, string> key_use;  // °´¼ü¹¦ÄÜ
+const int MAXX = 500; 		// åœ°å›¾é•¿å®½
+int world[MAXY+20][MAXX+20]; 		// åœ°å›¾
+const int TICK = 10;        // åˆ»(10 tick(s)/s)
+int ground_att;             // æ°´å¹³é¢é«˜åº¦
+const int BLOCKS_NUM = 5;	// æ–¹å—ç§ç±»æ•°é‡
+const int KEY_MAX = 12;		// æŒ‰é”®ç§ç±»æ•°é‡
+/*----- æŒ‰é”®ä¿¡æ¯ -----*/
+char key[KEY_MAX + 5];  		// æŒ‰é”®å­—æ¯
+map <char, int> key_id;		// æŒ‰é”®ç´¢å¼•
+map <int, string> key_use;  // æŒ‰é”®åŠŸèƒ½
 
-/*----- ÎïÆ·ĞÅÏ¢ -----*/
-map <string, int> blocks_id;// ·½¿é±àºÅ
-string blocks[BLOCKS_NUM + 5];			// ·½¿éÃû³Æ
-string blocks_character[BLOCKS_NUM + 5];	// ·½¿é×Ö·û»­
-int blocks_num[BLOCKS_NUM + 5];			// ÓµÓĞ·½¿éÊıÁ¿
+/*----- ç‰©å“ä¿¡æ¯ -----*/
+map <string, int> blocks_id;// æ–¹å—ç¼–å·
+string blocks[BLOCKS_NUM + 5];			// æ–¹å—åç§°
+string blocks_character[BLOCKS_NUM + 5];	// æ–¹å—å­—ç¬¦ç”»
+int blocks_num[BLOCKS_NUM + 5];			// æ‹¥æœ‰æ–¹å—æ•°é‡
 int block_colors[BLOCKS_NUM + 5];
-/*----- Ö¸Õë -----*/
-int key_point; 			 	// °´¼üÖ¸Õë
-int main_menu_point;		// Ö÷²Ëµ¥Ö¸Õë
+/*----- æŒ‡é’ˆ -----*/
+int key_point; 			 	// æŒ‰é”®æŒ‡é’ˆ
+int main_menu_point;		// ä¸»èœå•æŒ‡é’ˆ
 
-/*----- ´°¿Ú -----*/
+/*----- çª—å£ -----*/
 
 int screen_left, screen_right;
-int screen_up, screen_down; // ÆÁÄ»ËÄÖÁµã
-int player_x, player_y;		// Íæ¼Ò×ø±ê
-int point_x, point_y;		// Ö¸Õë×ø±ê
-bool flag_point;			// Ö¸ÕëÄ£Ê½
+int screen_up, screen_down; // å±å¹•å››è‡³ç‚¹
+int player_x, player_y;		// ç©å®¶åæ ‡
+int point_x, point_y;		// æŒ‡é’ˆåæ ‡
+bool flag_point;			// æŒ‡é’ˆæ¨¡å¼
 
 void setcolor(int a) {
-	//ÑÕÉ«ÉèÖÃ
+	//é¢œè‰²è®¾ç½®
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), a);
 }
 /*
-struct node {				// »º³åÇø
+struct node {				// ç¼“å†²åŒº
 	int color;
 	char character;
 	void set_it(int a, char b) {
@@ -76,18 +76,18 @@ struct node {				// »º³åÇø
 	}
 } gragh[MAXY + 10][MAXX + 10];
 */
-void save() {	//´æµµ
+void save() {	//å­˜æ¡£
 	system("cls");
-	string name; //µµÃû
-	cout << "ÇëÊäÈë´æµµÃû(²»Òª³¢ÊÔÊäÈëÖĞÎÄ):";
+	string name; //æ¡£å
+	cout << "è¯·è¾“å…¥å­˜æ¡£å(ä¸è¦å°è¯•è¾“å…¥ä¸­æ–‡):";
 	cin >> name;
 	name += ".json";
 	Sleep(1000);
 	system("cls");
-	cout << "ÕıÔÚ´æµµ,ÇëÉÔºó¡¤¡¤¡¤¡¤¡¤" << endl;
+	cout << "æ­£åœ¨å­˜æ¡£,è¯·ç¨åÂ·Â·Â·Â·Â·" << endl;
 	FILE* fp = fopen(name.c_str(), "wb");
 	if (fp == NULL) {
-		cout << "Î´ÕÒµ½´æµµÎÄ¼ş£¬ÇëÁªÏµ¿ª·¢Õß¡£ ÍøÖ·£ºhttps://www.luogu.com.cn/team/98501" << endl;
+		cout << "æœªæ‰¾åˆ°å­˜æ¡£æ–‡ä»¶ï¼Œè¯·è”ç³»å¼€å‘è€…ã€‚ ç½‘å€ï¼šhttps://www.luogu.com.cn/team/98501" << endl;
 		return;
 	}
 	for (int i = 0; i < MAXY; i++) {
@@ -99,18 +99,18 @@ void save() {	//´æµµ
 	for (int i = 0; i <= BLOCKS_NUM; i++)
 		fprintf(fp, "%d\n", blocks_num[i]);
 	fclose(fp);
-	cout << "´æµµ³É¹¦£¡" << endl;
+	cout << "å­˜æ¡£æˆåŠŸï¼" << endl;
 	Sleep(2000);
 	exit(0);
 }
-void key_place_show() { //¼üÎ»»º³å
+void key_place_show() { //é”®ä½ç¼“å†²
 	string area;
 	for (int i = 1; i <= KEY_MAX; i++)
-		area += key_use[i] + ": " + key[i] + ((key_point == i) ? "¡Ì\n" : "\n");
+		area += key_use[i] + ": " + key[i] + ((key_point == i) ? "âˆš\n" : "\n");
 	system("cls");
 	cout << area;
 }
-void buffer() { // Í¼Ïñ»º³å
+void buffer() { // å›¾åƒç¼“å†²
 	system("cls");
 	for (int i = screen_up; i < screen_down; i++) {
 		for (int j = screen_left; j < screen_right; j++) {
@@ -128,9 +128,9 @@ void buffer() { // Í¼Ïñ»º³å
 		cout << '\n';
 	}
 	setcolor(240);
-	cout << "ÆÁÄ»×î×óx:" << screen_left << "\nÆÁÄ»×îÓÒx:" << screen_right << "\nÆÁÄ»×îÉÏ" << 150 - screen_up << "\nÆÁÄ»×îÏÂ" << 150 - screen_down << "\nÎÒµÄ×ø±ê" << "(" << player_x << "," << 150 - player_y << ")";
+	cout << "å±å¹•æœ€å·¦x:" << screen_left << "\nå±å¹•æœ€å³x:" << screen_right << "\nå±å¹•æœ€ä¸Š" << 150 - screen_up << "\nå±å¹•æœ€ä¸‹" << 150 - screen_down << "\næˆ‘çš„åæ ‡" << "(" << player_x << "," << 150 - player_y << ")";
 }
-void check_G() { //ÖØÁ¦¼ì²é
+void check_G() { //é‡åŠ›æ£€æŸ¥
 	if (!world[player_y + 2][player_x] && !world[player_y][player_x] && player_y <= 150) {
 		player_y++;
 		if (screen_down - player_y <= 3) {
@@ -140,7 +140,7 @@ void check_G() { //ÖØÁ¦¼ì²é
 		buffer();
 	}
 	if (player_y >= 150 ) {
-		cout << "ÄãÔÚĞé¿ÕËÀÁË" << endl;
+		cout << "ä½ åœ¨è™šç©ºæ­»äº†" << endl;
 		exit(0);
 	}
 }
@@ -206,9 +206,9 @@ void key_2() {
 void key_5() {
 	if (flag_point) return;
 	system("cls");
-	cout << "±³°ü\n";
+	cout << "èƒŒåŒ…\n";
 	for (int i = 1; i <= BLOCKS_NUM; i++)
-		cout << blocks[i] << "ÓĞ" << blocks_num[i] << "¸ö\n";
+		cout << blocks[i] << "æœ‰" << blocks_num[i] << "ä¸ª\n";
 	while (1) {
 		if (kbhit()) {
 			return;
@@ -228,7 +228,7 @@ void key_9() {
 void key_11() {
 	key_point = 0;
 	system("cls");
-	cout << "°´¼üËµÃ÷£º\nÕı³£Ä£Ê½£º" << key[1] << "ÉÏ " << key[2] << "ÏÂ " << key[3] << "×ó " << key[4] << "ÓÒ " << key[9] << "ÇĞ»»Ö¸ÕëÄ£Ê½ " << key[11] << "°´¼üËµÃ÷ " << key[5] << "±³°ü " << key[10] << "ĞŞ¸Ä¼üÎ»\n\nÖ¸ÕëÄ£Ê½£º" << key[1] << "ÉÏ " << key[2] << "ÏÂ " << key[3] << "×ó " << key[4] << "ÓÒ " << key[9] << "ÇĞ»»Õı³£Ä£Ê½ " << key[6] << "ÍÚ¾ò " << key[7] << "·ÅÖÃ£¨¿Õ¸ñÈ·ÈÏ£©£¨ÓÃwsadÑ¡Ôñ£©\n°´+±£´æ(ÎŞ·¨¸ü¸Ä°´¼ü)\n°´" << key[11] << "¼´¿ÉÍË³öÅ¶~~~";
+	cout << "æŒ‰é”®è¯´æ˜ï¼š\næ­£å¸¸æ¨¡å¼ï¼š" << key[1] << "ä¸Š " << key[2] << "ä¸‹ " << key[3] << "å·¦ " << key[4] << "å³ " << key[9] << "åˆ‡æ¢æŒ‡é’ˆæ¨¡å¼ " << key[11] << "æŒ‰é”®è¯´æ˜ " << key[5] << "èƒŒåŒ… " << key[10] << "ä¿®æ”¹é”®ä½\n\næŒ‡é’ˆæ¨¡å¼ï¼š" << key[1] << "ä¸Š " << key[2] << "ä¸‹ " << key[3] << "å·¦ " << key[4] << "å³ " << key[9] << "åˆ‡æ¢æ­£å¸¸æ¨¡å¼ " << key[6] << "æŒ–æ˜ " << key[7] << "æ”¾ç½®ï¼ˆç©ºæ ¼ç¡®è®¤ï¼‰ï¼ˆç”¨wsadé€‰æ‹©ï¼‰\næŒ‰+ä¿å­˜(æ— æ³•æ›´æ”¹æŒ‰é”®)\næŒ‰" << key[11] << "å³å¯é€€å‡ºå“¦~~~";
 	while (1) {
 		if (kbhit()) {
 			char c = getch();
@@ -241,7 +241,7 @@ void key_11() {
 }
 void key_10() {
 	system("cls");
-	cout << "Ôİ»º";
+	cout << "æš‚ç¼“";
 	Sleep(1000);
 	system("cls");
 	buffer();
@@ -254,9 +254,9 @@ void key_6() {
 }
 void show_block(int flag) {
 	system("cls");
-	cout << "±³°ü\n";
+	cout << "èƒŒåŒ…\n";
 	for (int i = 1; i <= BLOCKS_NUM; i++)
-		cout << blocks[i] << "ÓĞ" << blocks_num[i] << "¸ö " << ((flag == i) ? "¡Ì\n" : "\n");
+		cout << blocks[i] << "æœ‰" << blocks_num[i] << "ä¸ª " << ((flag == i) ? "âˆš\n" : "\n");
 }
 void key_7() {
 	if (point_x == player_x && point_y == player_y) return;
@@ -282,7 +282,7 @@ void key_7() {
 					break;
 				} else {
 					system("cls");
-					cout << "·½¿é²»×ã" << endl;
+					cout << "æ–¹å—ä¸è¶³" << endl;
 					Sleep(1000);
 					break;
 				}
@@ -296,7 +296,7 @@ void key_7() {
 void key_8() {
 	return;
 }
-void key_check() {  //°´¼ü¼ì²â
+void key_check() {  //æŒ‰é”®æ£€æµ‹
 	if (kbhit()) {
 		char c = getch();
 		switch (key_id[c]) {
@@ -339,42 +339,42 @@ void key_check() {  //°´¼ü¼ì²â
 		}
 	}
 }
-void main_menu() { //Ö÷²Ëµ¥
+void main_menu() { //ä¸»èœå•
 	system("cls");
 	cout << endl << endl << endl << endl << endl << endl;
-	cout << "          " << "°´w£¬sÀ´Ñ¡Ôñ°É£¡" << endl;
-	cout << "          " << "1.ĞÂÓÎÏ·";
-	if (main_menu_point == 0) { cout << "¡Ì";}
+	cout << "          " << "æŒ‰wï¼Œsæ¥é€‰æ‹©å§ï¼" << endl;
+	cout << "          " << "1.æ–°æ¸¸æˆ";
+	if (main_menu_point == 0) { cout << "âˆš";}
 	cout << endl;
-	cout << "          " << "2.ÎÒÒª¶Áµµ£¡£¡£¡";
-	if (main_menu_point == 1) {	cout << "¡Ì";}
+	cout << "          " << "2.æˆ‘è¦è¯»æ¡£ï¼ï¼ï¼";
+	if (main_menu_point == 1) {	cout << "âˆš";}
 	cout << endl;
-	cout << "          " << "¿Õ¸ñÈ·¶¨" << endl;
+	cout << "          " << "ç©ºæ ¼ç¡®å®š" << endl;
 }
-void ad() { //¹ã×Ó
+void ad() { //å¹¿å­
 	system("cls");
 	cout << endl << endl << endl << endl << endl << endl;
-	cout << "        " << "MC 2D ¹¤×÷ÊÒ³öÆ·" << endl;
-	cout << "        " << "Ãâ·ÑÓÎÏ·¸Å²»ÊÕ·Ñ" << endl;
-	cout << "        " << "  ÍÅ¶ÓÕĞĞû´«Ô±  " << endl;
-	cout << "        " << " Âå¹ÈÍÅ¶Ó:98501 " << endl;
+	cout << "        " << "MC 2D å·¥ä½œå®¤å‡ºå“" << endl;
+	cout << "        " << "å…è´¹æ¸¸æˆæ¦‚ä¸æ”¶è´¹" << endl;
+	cout << "        " << "  å›¢é˜Ÿæ‹›å®£ä¼ å‘˜  " << endl;
+	cout << "        " << " æ´›è°·å›¢é˜Ÿ:98501 " << endl;
 	Sleep(5000);
 	system("cls");
 	cout << endl << endl << endl << endl << endl << endl;
-	cout << "    " << "       ½¡¿µÓÎÏ·ÖÒ¸æ" << endl;
-	cout << "    " << "µÖÖÆ²»Á¼ÓÎÏ·£¬¾Ü¾øµÁ°æÓÎÏ·¡£" << endl;
-	cout << "    " << "×¢Òâ×ÔÎÒ±£»¤£¬½÷·ÀÊÜÆ­ÉÏµ±¡£" << endl;
-	cout << "    " << "ÊÊ¶ÈÓÎÏ·ÒæÄÔ£¬³ÁÃÔÓÎÏ·ÉËÉí¡£" << endl;
-	cout << "    " << "ºÏÀí°²ÅÅÊ±¼ä£¬ÏíÊÜ½¡¿µÉú»î¡£" << endl;
+	cout << "    " << "       å¥åº·æ¸¸æˆå¿ å‘Š" << endl;
+	cout << "    " << "æŠµåˆ¶ä¸è‰¯æ¸¸æˆï¼Œæ‹’ç»ç›—ç‰ˆæ¸¸æˆã€‚" << endl;
+	cout << "    " << "æ³¨æ„è‡ªæˆ‘ä¿æŠ¤ï¼Œè°¨é˜²å—éª—ä¸Šå½“ã€‚" << endl;
+	cout << "    " << "é€‚åº¦æ¸¸æˆç›Šè„‘ï¼Œæ²‰è¿·æ¸¸æˆä¼¤èº«ã€‚" << endl;
+	cout << "    " << "åˆç†å®‰æ’æ—¶é—´ï¼Œäº«å—å¥åº·ç”Ÿæ´»ã€‚" << endl;
 	Sleep(3000);
 	system("cls");
 }
-void start() { //¿ªÊ¼
-	/*´°¿ÚÉèÖÃ*/
+void start() { //å¼€å§‹
+	/*çª—å£è®¾ç½®*/
 	system("mode con cols=36 lines=20");
 	system("color F0");
-	/*Ñ¡ÔñÄ£Ê½*/
-	ad(); /*ÌåÑé´¿¾»°æÇë½«´ËĞĞ×¢ÊÍ*/
+	/*é€‰æ‹©æ¨¡å¼*/
+	ad(); /*ä½“éªŒçº¯å‡€ç‰ˆè¯·å°†æ­¤è¡Œæ³¨é‡Š*/
 	main_menu();
 	while (1) {
 		if (kbhit()) {
@@ -400,21 +400,21 @@ void start() { //¿ªÊ¼
 		}
 	}
 }
-void init() { //³õÊ¼»¯
-	blocks[1] = "ÄàÍÁ";
-	blocks_id["ÄàÍÁ"] = 1;
+void init() { //åˆå§‹åŒ–
+	blocks[1] = "æ³¥åœŸ";
+	blocks_id["æ³¥åœŸ"] = 1;
 	blocks_character[1] = '^';
-	blocks[2] = "Ê¯Í·";
-	blocks_id["Ê¯Í·"] = 2;
+	blocks[2] = "çŸ³å¤´";
+	blocks_id["çŸ³å¤´"] = 2;
 	blocks_character[2] = '#';
-	blocks[3] = "Ô­Ä¾";
-	blocks_id["Ô­Ä¾"] = 3;
+	blocks[3] = "åŸæœ¨";
+	blocks_id["åŸæœ¨"] = 3;
 	blocks_character[3] = '$';
-	blocks[4] = "Ê÷Ò¶";
-	blocks_id["Ê÷Ò¶"] = 4;
+	blocks[4] = "æ ‘å¶";
+	blocks_id["æ ‘å¶"] = 4;
 	blocks_character[4] = '%';
-	blocks[5] = "Ê÷Ãç";
-	blocks_id["Ê÷Ãç"] = 5;
+	blocks[5] = "æ ‘è‹—";
+	blocks_id["æ ‘è‹—"] = 5;
 	blocks_character[5] = '*';
 	blocks[0] = "NULL";
 	blocks_id["NULL"] = 0;
@@ -422,50 +422,50 @@ void init() { //³õÊ¼»¯
 	key[1] = 'w';
 	key_id['w'] = 1;
 	key_id['W'] = 1;
-	key_use[1] = "ÉÏ";
+	key_use[1] = "ä¸Š";
 	key[2] = 's';
 	key_id['s'] = 2;
 	key_id['S'] = 2;
-	key_use[2] = "ÏÂ";
+	key_use[2] = "ä¸‹";
 	key[3] = 'a';
 	key_id['a'] = 3;
 	key_id['A'] = 3;
-	key_use[3] = "×ó";
+	key_use[3] = "å·¦";
 	key[4] = 'd';
 	key_id['d'] = 4;
-	key_id['B'] = 4;
-	key_use[4] = "ÓÒ";
+	key_id['D'] = 4;
+	key_use[4] = "å³";
 	key[5] = 'b';
 	key_id['b'] = 5;
 	key_id['B'] = 5;
-	key_use[5] = "±³°ü";
+	key_use[5] = "èƒŒåŒ…";
 	key[6] = 'j';
 	key_id['j'] = 6;
 	key_id['J'] = 6;
-	key_use[6] = "´İ»Ù";
+	key_use[6] = "æ‘§æ¯";
 	key[7] = 'k';
 	key_id['k'] = 7;
 	key_id['K'] = 7;
-	key_use[7] = "·ÅÖÃ";
+	key_use[7] = "æ”¾ç½®";
 	key[8] = ' ';
 	key_id[' '] = 8;
-	key_use[8] = "È·¶¨";
+	key_use[8] = "ç¡®å®š";
 	key[9] = '~';
 	key_id['~'] = 9;
 	key_id['`'] = 9;
-	key_use[9] = "ÇĞ»»Ö¸Õë";
+	key_use[9] = "åˆ‡æ¢æŒ‡é’ˆ";
 	key[10] = '?';
 	key_id['?'] = 10;
 	key_id['/'] = 10;
-	key_use[10] = "ĞŞ¸Ä";
+	key_use[10] = "ä¿®æ”¹";
 	key[11] = 'p';
 	key_id['p'] = 11;
 	key_id['P'] = 11;
-	key_use[11] = "¸Ä°´¼ü(Ôİ»º)";
+	key_use[11] = "æ”¹æŒ‰é”®(æš‚ç¼“)";
 	key[12] = '+';
 	key_id['+'] = 12;
 	key_id['='] = 12;
-	key_use[12] = "½áÊø+´æµµ";
+	key_use[12] = "ç»“æŸ+å­˜æ¡£";
 	block_colors[0] = 255;
 	block_colors[1] = 34;
 	block_colors[2] = 136;
@@ -473,8 +473,8 @@ void init() { //³õÊ¼»¯
 	block_colors[4] = 170;
 	block_colors[5] = 224;
 }
-void build_world() { //Éú³ÉÊÀ½ç
-	for (int i = 0; i < MAXY; i++) { // Éú³ÉµØĞÎÓëÊ÷Ãç
+void build_world() { //ç”Ÿæˆä¸–ç•Œ
+	for (int i = 0; i < MAXY; i++) { // ç”Ÿæˆåœ°å½¢ä¸æ ‘è‹—
 		for (int j = 0; j < MAXX; j++) {
 			if (i == ground_att) {
 				world[i][j] = 1;
@@ -491,7 +491,7 @@ void build_world() { //Éú³ÉÊÀ½ç
 			}
 		}
 	}
-	for (int i = 0; i < MAXY; i++) { // ÒÆ³ı¸¡¿ÕÊ÷Ãç
+	for (int i = 0; i < MAXY; i++) { // ç§»é™¤æµ®ç©ºæ ‘è‹—
 		for (int j = 0; j < MAXX; j++) {
 			if (world[i][j] == 5) {
 				if (world[i + 1][j] != 1) {
@@ -500,7 +500,7 @@ void build_world() { //Éú³ÉÊÀ½ç
 			}
 		}
 	}
-	for (int i = 3; i < MAXY; i++) { // Ê÷ÃçÍØÕ¹Éú³ÉÊ÷
+	for (int i = 3; i < MAXY; i++) { // æ ‘è‹—æ‹“å±•ç”Ÿæˆæ ‘
 		for (int j = 2; j < MAXX - 3; j++) {
 			if (world[i][j] == 5) {
 				world[i][j] = 3;
@@ -517,26 +517,26 @@ void build_world() { //Éú³ÉÊÀ½ç
 				world[i - 3][j + 1] = 4;
 				world[i - 3][j - 1] = 4;
 				world[i - 3][j] = 4;
-				j += 3; // ·ÀÖ¹Á¬ĞøÉú³ÉÊ÷£¬µ«ÓÖ²»ÆÆ»µÊ÷Ãç
+				j += 3; // é˜²æ­¢è¿ç»­ç”Ÿæˆæ ‘ï¼Œä½†åˆä¸ç ´åæ ‘è‹—
 			}
 		}
 	}
 	buffer();
 }
-void Set_Born_Point() { //³öÉúµãÉèÖÃ
+void Set_Born_Point() { //å‡ºç”Ÿç‚¹è®¾ç½®
 	system("cls");
-	cout << "ÉèÖÃ*ÆÁÄ»×î×óx£¨0~469£©:";
+	cout << "è®¾ç½®*å±å¹•æœ€å·¦xï¼ˆ0~469ï¼‰:";
 	cin >> screen_left;
 	screen_right = screen_left + 31;
 	while (screen_left <= -1 || screen_right >= 501) {
-		cout << "ÇëÖØĞÂÊäÈë×î×ó¶Ëx×ø±ê£¨0~469£©:";
+		cout << "è¯·é‡æ–°è¾“å…¥æœ€å·¦ç«¯xåæ ‡ï¼ˆ0~469ï¼‰:";
 		cin >> screen_left;
 		screen_right = screen_left + 31;
 	}
-	cout << "ÉèÖÃ*µØÃæ¸ß¶È(145~5):";
+	cout << "è®¾ç½®*åœ°é¢é«˜åº¦(145~5):";
 	cin >> ground_att;
 	while (ground_att < 5 || ground_att > 145) {
-		cout << "ÉèÖÃ*µØÃæ¸ß¶È(145~5):";
+		cout << "è®¾ç½®*åœ°é¢é«˜åº¦(145~5):";
 		cin >> ground_att;
 	}
 	ground_att = 150 - ground_att;
@@ -545,15 +545,15 @@ void Set_Born_Point() { //³öÉúµãÉèÖÃ
 	screen_up = player_y - 4;
 	screen_down = screen_up + 9;
 }
-void load() {  //¶Áµµ
+void load() {  //è¯»æ¡£
 	string name;
 	system("cls");
-	cout << "ÇëÊäÈëÄãµÄ´æµµÃû³Æ£¨ÎŞĞè´ø.json£©£º\n";
+	cout << "è¯·è¾“å…¥ä½ çš„å­˜æ¡£åç§°ï¼ˆæ— éœ€å¸¦.jsonï¼‰ï¼š\n";
 	cin >> name;
 	name += ".json";
 	FILE* fp = fopen(name.c_str(), "rb");
 	if (fp == NULL) {
-		cout << "ÎŞ·¨´ò¿ªÎÄ¼ş½øĞĞ¶ÁÈ¡" << endl;
+		cout << "æ— æ³•æ‰“å¼€æ–‡ä»¶è¿›è¡Œè¯»å–" << endl;
 		throw (114514);
 		exit(0);
 	}
@@ -577,7 +577,7 @@ int main() {
 	init();
 	if (main_menu_point == 0) {
 		Set_Born_Point();
-		key_11();//ĞÂÊÖºÍĞÂÊÀ½ç½øÓÎÏ·Ç°µ¯Ò»´Î°´¼ü
+		key_11();//æ–°æ‰‹å’Œæ–°ä¸–ç•Œè¿›æ¸¸æˆå‰å¼¹ä¸€æ¬¡æŒ‰é”®
 		build_world();
 	} else{
 		load();
