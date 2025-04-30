@@ -7,4 +7,4 @@
     
 Update content:
   
--Replace the image buffer core to make the image smoother.
+- Replace the image buffer core to make the image smoother.
