@@ -4,3 +4,7 @@
   更新内容：
   
   - 将图像缓冲核心进行更换，使图像更丝滑。
+    
+Update content:
+  
+-Replace the image buffer core to make the image smoother.
