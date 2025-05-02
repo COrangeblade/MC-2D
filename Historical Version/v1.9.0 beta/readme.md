@@ -18,20 +18,33 @@ MC 2D 1.9.0.beta
 1.21 收工。
 
 MC 2D 1.9.0.beta
+
 This version is a rewrite of the previous version with significant structural changes.
 We have updated the following aspects
+
 -Optimize the buffering method, but do not use double buffering, so screen jamming may occur.
 -Reduce program size, code from 19 kb to 12 kb
+
 -Fixed the following bugs:
--Pointer movement bug
--Void BUG
--Start menu bug
+
+	-Pointer movement bug  
+	-Void BUG  
+	-Start menu bug  
 -Optimized the code style
+
 -Meanwhile, due to various reasons, we have temporarily removed the operation of modifying key positions, which will be restored in the future.
+
 -This upgrade inevitably has shortcomings and problems. Please provide timely feedback to make it better
+
 -Finally, thank you all for your support, and I hope you can continue to accompany the MC 2D production team in the future.
+
 Best regards
+
 MC 2D Production Team
+
 On the evening of December 21st
+
 Start writing on 1.20.
+
 1.21 Closing of work.
+
