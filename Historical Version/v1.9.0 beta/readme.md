@@ -25,11 +25,10 @@ We have updated the following aspects
 -Optimize the buffering method, but do not use double buffering, so screen jamming may occur.
 -Reduce program size, code from 19 kb to 12 kb
 
--Fixed the following bugs:
-
+-Fixed the following bugs:  
 	-Pointer movement bug  
 	-Void BUG  
-	-Start menu bug  
+	-Start menu bug   
 -Optimized the code style
 
 -Meanwhile, due to various reasons, we have temporarily removed the operation of modifying key positions, which will be restored in the future.
