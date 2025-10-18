@@ -1,0 +1,10 @@
+7
+img/item/air.png img/gui/bg3.png air 0 0 0 
+img/item/grass.png img/item/grass.png grass 1 1 7 
+img/item/stone.png img/item/stone.png stone 2 1 6 
+img/item/log.png img/item/log.png log 3 1 3 
+img/item/leaf.png img/item/leaf.png leaf 4 1 4 
+img/item/sapling.png img/item/sapling.png sapling 5 0 0 
+img/item/cobblestone.png img/item/cobblestone.png cobblestone 6 1 6
+img/item/dirt.png img/item/dirt.png dirt 7 1 7
+
